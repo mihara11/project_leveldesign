@@ -6616,13 +6616,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &984584300
+--- !u!43 &967152569
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-113334(Clone)(Clone)(Clone)(Clone)
+  m_Name: pb_Mesh-113334(Clone)(Clone)(Clone)(Clone)(Clone)
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -31118,6 +31118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2383865806470902783}
+  - component: {fileID: 2383865806470902784}
   m_Layer: 0
   m_Name: Pendelum (1)
   m_TagString: Untagged
@@ -31172,6 +31173,27 @@ Transform:
   - {fileID: 8114810132280533899}
   m_Father: {fileID: 397374374}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!95 &2383865806470902784
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036333920985265035}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f507d556fb8c134cae781a6bb1c3aa6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &2489717000213904601
 Transform:
   m_ObjectHideFlags: 0
@@ -31643,7 +31665,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4721972558968866669}
-  m_Mesh: {fileID: 984584300}
+  m_Mesh: {fileID: 967152569}
 --- !u!1 &4721972558968866669
 GameObject:
   m_ObjectHideFlags: 0
@@ -32039,7 +32061,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 984584300}
+  m_Mesh: {fileID: 967152569}
   m_VersionIndex: 8303
   m_IsSelectable: 1
   m_SelectedFaces: 
@@ -32228,7 +32250,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 984584300}
+  m_Mesh: {fileID: 967152569}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
